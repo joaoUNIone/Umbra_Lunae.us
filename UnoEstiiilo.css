@@ -1,0 +1,315 @@
+body, html {
+  font-family: Monospace;
+  margin:auto;
+  height: 100%;
+  background-image: linear-gradient(#0d0d0d 1px, transparent 1px), linear-gradient(to right, #0d0d0d 1px, transparent 1px);
+  background-size: 7px 7px;
+  background-color: #1a1a1a;
+}
+
+.title1 {
+  background: radial-gradient(at bottom right, #000000 0, #000000 5.5px, rgba(0,0,0,0.2) 5.5px, rgba(0,0,0,0.2) 11px, rgba(0,0,0,0.75) 11px, rgba(0,0,0,0.75) 16.5px, rgba(0,0,0,0.25) 16.5px, rgba(0,0,0,0.25) 22px, rgba(0,0,0,0.3) 22px, rgba(0,0,0,0.3) 27.5px, rgba(0,0,0,0.75) 27.5px, rgba(0,0,0,0.75) 33px, rgba(0,0,0,0.2) 33px, rgba(0,0,0,0.2) 38.5px, transparent 38.5px, transparent 44px), radial-gradient(at top left, transparent 0, transparent 5.5px, rgba(0,0,0,0.2) 5.5px, rgba(0,0,0,0.2) 11px, rgba(0,0,0,0.75) 11px, rgba(0,0,0,0.75) 16.5px, rgba(0,0,0,0.3) 16.5px, rgba(0,0,0,0.3) 22px, rgba(0,0,0,0.25) 22px, rgba(0,0,0,0.25) 27.5px, rgba(0,0,0,0.75) 27.5px, rgba(0,0,0,0.75) 33px, rgba(0,0,0,0.2) 33px, rgba(0,0,0,0.2) 38.5px, #000000 38.5px, #000000 44px, transparent 44px, transparent 110px);
+  background-blend-mode: multiply;
+  background-size: 44px 44px, 44px 44px;
+  background-color: #c62e2e;
+	color: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	line-height: 23px;
+	font-size: 16px;
+  border: solid 2px black;
+	height: 23px;
+	margin: auto;
+	padding: auto;
+}
+
+.divhead{
+  max-width: 400px;
+  min-width: 100px;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  height: 18px;
+  padding: 10px;
+}
+table {
+  background: rgba(255,255,255,0.15);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  border: 1px solid rgba(255,255,255,0.075);
+  margin: auto;
+  border-radius: 4px;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+td {
+  background: radial-gradient(at bottom right, #000000 0, #000000 5.5px, rgba(0,0,0,0.2) 5.5px, rgba(0,0,0,0.2) 11px, rgba(0,0,0,0.75) 11px, 	rgba(0,0,0,0.75) 16.5px, rgba(0,0,0,0.25) 16.5px, rgba(0,0,0,0.25) 22px, rgba(0,0,0,0.3) 22px, rgba(0,0,0,0.3) 27.5px, rgba(0,0,0,0.75) 27.5px, rgba(0,0,0,0.75) 33px, rgba(0,0,0,0.2) 33px, rgba(0,0,0,0.2) 38.5px, transparent 38.5px, transparent 44px), radial-gradient(at top left, transparent 0, transparent 5.5px, rgba(0,0,0,0.2) 5.5px, rgba(0,0,0,0.2) 11px, rgba(0,0,0,0.75) 11px, rgba(0,0,0,0.75) 16.5px, rgba(0,0,0,0.3) 16.5px, rgba(0,0,0,0.3) 22px, rgba(0,0,0,0.25) 22px, rgba(0,0,0,0.25) 27.5px, rgba(0,0,0,0.75) 27.5px, rgba(0,0,0,0.75) 33px, rgba(0,0,0,0.2) 33px, rgba(0,0,0,0.2) 38.5px, #000000 38.5px, #000000 44px, transparent 44px, transparent 110px);
+  background-blend-mode: multiply;
+  background-size: 44px 44px, 44px 44px;
+  background-color: #c62e2e;
+  color: #FFFFFF;
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+
+.price{
+  color: #FFFFFF;
+  font-size: 14px;
+  background: radial-gradient(at bottom right, #000000 0, #000000 5.5px, rgba(0,0,0,0.2) 5.5px, rgba(0,0,0,0.2) 11px, rgba(0,0,0,0.75) 11px, rgba(0,0,0,0.75) 16.5px, rgba(0,0,0,0.25) 16.5px, rgba(0,0,0,0.25) 22px, rgba(0,0,0,0.3) 22px, rgba(0,0,0,0.3) 27.5px, rgba(0,0,0,0.75) 27.5px, rgba(0,0,0,0.75) 33px, rgba(0,0,0,0.2) 33px, rgba(0,0,0,0.2) 38.5px, transparent 38.5px, transparent 44px), radial-gradient(at top left, transparent 0, transparent 5.5px, rgba(0,0,0,0.2) 5.5px, rgba(0,0,0,0.2) 11px, rgba(0,0,0,0.75) 11px, rgba(0,0,0,0.75) 16.5px, rgba(0,0,0,0.3) 16.5px, rgba(0,0,0,0.3) 22px, rgba(0,0,0,0.25) 22px, rgba(0,0,0,0.25) 27.5px, rgba(0,0,0,0.75) 27.5px, rgba(0,0,0,0.75) 33px, rgba(0,0,0,0.2) 33px, rgba(0,0,0,0.2) 38.5px, #000000 38.5px, #000000 44px, transparent 44px, transparent 110px);
+  background-blend-mode: multiply;
+  background-size: 44px 44px, 44px 44px;
+  background-color: #c62e2e;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+.thhead{
+  color: #FFFFFF;
+  background: black;
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+
+caption {
+  caption-side: bottom;
+  background-color: rgb(143, 21, 21);
+  color: white;
+  padding: 10px;
+  font-size: 7px;
+}
+
+thead,
+tfoot {
+  color: white;
+  background-color: black;
+}
+
+th,td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px 20px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+.buttonss {
+  padding: 10px 10px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: red;
+  background-color: darkred;
+  border: solid 1px red;
+  border-radius: 15px;
+  box-shadow: 0 3px darkred;
+}
+.buttonss:hover {background-color: red;}
+.buttonss:hover {color: white;}
+.buttonss:hover {font-size: 40px;}
+
+.buttonss:active {
+  font-size: 40px;
+  color:white;
+  background-color: red;
+  transform: translateY(4px);
+}
+
+/*------------------------ GLITCH ------------------------*/
+/*------------------------ GLITCH ------------------------*/
+
+.glitch-wrapper {
+   text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5), -9px 3px 8px #19F3FD;
+   width: 80%;
+   height: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin: auto;
+}
+
+.glitch {
+   position: relative;
+   font-size: 25px;
+   font-weight: 700;
+   line-height: 1.2;
+   color: #56f2ff;
+   letter-spacing: 5px;
+   z-index: 1;
+}
+
+.glitch:before,
+.glitch:after {
+   display: block;
+   content: attr(data-glitch);
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 0.8;
+}
+
+.glitch:before {
+   animation: glitch-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+   color: #9cf7ff;
+   z-index: -1;
+}
+
+.glitch:after {
+   animation: glitch-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+   color: #9cf7ff;
+   z-index: -2;
+}
+
+@keyframes glitch-color {
+   0% {
+      transform: translate(0);
+   }
+
+   20% {
+      transform: translate(-3px, 3px);
+   }
+
+   40% {
+      transform: translate(-3px, -3px);
+   }
+
+   60% {
+      transform: translate(3px, 3px);
+   }
+
+   80% {
+      transform: translate(3px, -3px);
+   }
+
+   to {
+      transform: translate(0);
+   }
+}
+
+/* ------------------------------ Nav Top Bar ------------------------------ */
+.navbar {
+  margin-top: 1%;
+  overflow: hidden;
+  background-size: 20px 20px;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+.divfoot {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-clip: border-box;
+}
+.titlelin{
+  color: lightblue;
+  letter-spacing: 10px;
+  text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5), -9px 3px 8px #19F3FD;
+}
+
+.navbar a {
+  float: center;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background: lightblue;
+  color: white;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+}
+
+ /* ----------------- about us ----------------- */
+
+.section-container {
+    background-color: black;
+    border: double 2px lightblue;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-container h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.section-container p, .section-container ul {
+    font-size: 16px;
+    line-height: 1.6;
+    color: lightblue;
+}
+
+.section-container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.section-container ul li {
+    margin-bottom: 8px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.team-member {
+    background: #ffffff;
+    background: linear-gradient(90deg,rgba(255, 255, 255, 1) 20%, rgba(120, 228, 255, 1) 59%, rgba(5, 205, 255, 1) 100%);;
+    border: 5px double lightblue;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: left;
+}
+
+/*-------- Título das caixas de funcionários -------*/
+
+.team-member h3 {
+    padding: 0px;
+    color:white;
+    background-color:lightblue;
+    margin-top: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.team-member p {
+    margin: aut;
+}
+@media screen and (min-width: 800px) {
+  .container {
+    margin: 1em 2em;
+  }
+}
+@media (max-width: 500px) {
+  .titlelin{
+    font-size: 15px;
+    }
+  }
