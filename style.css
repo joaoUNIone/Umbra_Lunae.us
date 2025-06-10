@@ -1,0 +1,148 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f;
+  color: #f4f4f4;
+  line-height: 1.6;
+  padding-bottom: 60px;
+}
+
+.divider {
+  margin: 2% auto;
+  width: 90%;
+  border: 0.5px solid #2a2a2a;
+}
+
+/* Título principal impactante */
+.main-title {
+  font-size: 2.8em;
+  font-weight: 800;
+  background: linear-gradient(to right, #00ffff, #ff00a6, #ffd700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  animation: pulseTitle 2s ease-in-out infinite;
+}
+
+@keyframes pulseTitle {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.95;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  padding: 3%;
+}
+
+.logo-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.section-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #111;
+}
+
+.titlelin {
+  color: #ffd700;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.team-member {
+  background-color: #2a2a2a;
+  padding: 15px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  background-color: #333;
+}
+
+.role.red {
+  color: #ff4c4c;
+}
+.role.purple {
+  color: #b266ff;
+}
+.role.orange {
+  color: #ffc266;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 60px;
+}
+
+a.titlelin {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+a.titlelin:hover {
+  color: #00ffff;
+}
+/* Animação suave ao rolar */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Animação nos cards ao passar o mouse */
+.team-member:hover {
+  background-color: #333;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+  transform: translateY(-8px) scale(1.02);
+}
+
+/* Título com brilho contínuo */
+.main-title {
+  ...
+  animation: pulseTitle 2s ease-in-out infinite, glow 4s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 10px #00ffff80, 0 0 20px #ff00a640;
+  }
+  50% {
+    text-shadow: 0 0 20px #ffd70080, 0 0 40px #00ffff50;
+  }
+}
+
